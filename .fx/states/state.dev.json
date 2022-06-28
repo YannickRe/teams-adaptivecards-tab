@@ -1,0 +1,48 @@
+{
+    "solution": {
+        "teamsAppTenantId": "22e80a38-0d9e-4d45-a92c-356004a48f3f",
+        "subscriptionId": "387281ac-fe6c-4dd7-9385-0d6024d43494",
+        "subscriptionName": "Visual Studio Enterprise – MPN (Yannick)",
+        "tenantId": "22e80a38-0d9e-4d45-a92c-356004a48f3f",
+        "needCreateResourceGroup": false,
+        "resourceGroupName": "my_day-dev-rg",
+        "location": "West Europe",
+        "resourceNameSuffix": "13e41d",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "22e80a38-0d9e-4d45-a92c-356004a48f3f",
+        "teamsAppId": "822afc10-31f6-466a-9146-f7f96e54b261",
+        "teamsAppUpdatedAt": 1656288504012
+    },
+    "fx-resource-identity": {
+        "identityName": "mydaydev2eb96b",
+        "identityResourceId": "/subscriptions/387281ac-fe6c-4dd7-9385-0d6024d43494/resourceGroups/my_day-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/mydaydev2eb96b",
+        "identityClientId": "02d70470-8da0-41da-989f-7931e058e1ba"
+    },
+    "fx-resource-bot": {
+        "botId": "9ef3f723-c535-411f-8256-8e19bf533da4",
+        "botPassword": "{{fx-resource-bot.botPassword}}",
+        "objectId": "eb40ab73-b824-4564-a873-88f192175142",
+        "skuName": "B1",
+        "siteName": "mydaydev2eb96bbot",
+        "validDomain": "mydaydev2eb96bbot.azurewebsites.net",
+        "appServicePlanName": "mydaydev2eb96bbot",
+        "resourceId": "/subscriptions/387281ac-fe6c-4dd7-9385-0d6024d43494/resourceGroups/my_day-dev-rg/providers/Microsoft.Web/sites/mydaydev2eb96bbot",
+        "siteEndpoint": "https://mydaydev2eb96bbot.azurewebsites.net"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "26d2a7ab-03a4-424a-a650-0115c333c35b",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "e7851a84-14e3-4fdc-b80f-91ae7a6f2a24",
+        "oauth2PermissionScopeId": "d56c1fbd-4c0a-4881-93c0-cea310a8035a",
+        "tenantId": "22e80a38-0d9e-4d45-a92c-356004a48f3f",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/22e80a38-0d9e-4d45-a92c-356004a48f3f",
+        "applicationIdUris": "api://botid-9ef3f723-c535-411f-8256-8e19bf533da4",
+        "botId": "9ef3f723-c535-411f-8256-8e19bf533da4",
+        "botEndpoint": "https://mydaydev2eb96bbot.azurewebsites.net"
+    },
+    "fx-resource-cicd": {},
+    "fx-resource-api-connector": {}
+}

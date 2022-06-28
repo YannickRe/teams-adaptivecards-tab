@@ -1,0 +1,293 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "large",
+            "weight": "bolder",
+            "text": "Mails"
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": 90,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Microsoft Azure",
+                                    "wrap": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Your weekly PIM digest for yrkmsn",
+                                    "wrap": true,
+                                    "spacing": "None",
+                                    "color": "Accent",
+                                    "size": "Medium",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Here’s a summary of activities over the last seven days.Your weekly PIM digest for yrkmsnThanks for using Azure Active Directory Privileged Identity Management (PIM). This weekly digest shows your PIM activities over the last seven days:User a",
+                                    "wrap": true,
+                                    "spacing": "None",
+                                    "isSubtle": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": 10,
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "actions": [
+                                        {
+                                            "type": "Action.OpenUrl",
+                                            "title": "Open",
+                                            "url": "https://outlook.office365.com/owa/?ItemID=AAMkAGNkM2Y1MzJlLThhNzctNDNkZS05ODBhLWY4NTg2NDdjNzczYwBGAAAAAAAJRbdiB9OZQoz5IT1HhDRtBwBjzCQXAsbSR5fDh9706hiVAAAAAAEMAABjzCQXAsbSR5fDh9706hiVAAJxTKf9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "separator": true
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": 90,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Microsoft Azure",
+                                    "wrap": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Azure AD Identity Protection Weekly Digest",
+                                    "wrap": true,
+                                    "spacing": "None",
+                                    "color": "Accent",
+                                    "size": "Medium",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "See your Azure AD Identity Protection Weekly Digest reportAzure AD Identity Protection Weekly DigestyrkmsnNew risky users detected0New risky sign-ins detected(in real-time)0Privacy StatementMicrosoft Corporation",
+                                    "wrap": true,
+                                    "spacing": "None",
+                                    "isSubtle": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": 10,
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "actions": [
+                                        {
+                                            "type": "Action.OpenUrl",
+                                            "title": "Open",
+                                            "url": "https://outlook.office365.com/owa/?ItemID=AAMkAGNkM2Y1MzJlLThhNzctNDNkZS05ODBhLWY4NTg2NDdjNzczYwBGAAAAAAAJRbdiB9OZQoz5IT1HhDRtBwBjzCQXAsbSR5fDh9706hiVAAAAAAEMAABjzCQXAsbSR5fDh9706hiVAAJxTKf9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "separator": true
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": 90,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Microsoft Azure",
+                                    "wrap": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Your weekly PIM digest for yrkmsn",
+                                    "wrap": true,
+                                    "spacing": "None",
+                                    "color": "Accent",
+                                    "size": "Medium",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Here’s a summary of activities over the last seven days.Your weekly PIM digest for yrkmsnThanks for using Azure Active Directory Privileged Identity Management (PIM). This weekly digest shows your PIM activities over the last seven days:User a",
+                                    "wrap": true,
+                                    "spacing": "None",
+                                    "isSubtle": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": 10,
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "actions": [
+                                        {
+                                            "type": "Action.OpenUrl",
+                                            "title": "Open",
+                                            "url": "https://outlook.office365.com/owa/?ItemID=AAMkAGNkM2Y1MzJlLThhNzctNDNkZS05ODBhLWY4NTg2NDdjNzczYwBGAAAAAAAJRbdiB9OZQoz5IT1HhDRtBwBjzCQXAsbSR5fDh9706hiVAAAAAAEMAABjzCQXAsbSR5fDh9706hiVAAJxTKf9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "separator": true
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": 90,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Microsoft Azure",
+                                    "wrap": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Last Reminder: Update your trusted root store by 30 June 2022 for IMDS Attested Data Users",
+                                    "wrap": true,
+                                    "spacing": "None",
+                                    "color": "Accent",
+                                    "size": "Medium",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "We'll begin updating Azure Instance Metadata Service TLS certificates in July 2022.Add DigiCert Global Root G2 to your Trusted Root Store if certificate pinning is in useYou're receiving this notice because you use Azure Instance Metadata Service ",
+                                    "wrap": true,
+                                    "spacing": "None",
+                                    "isSubtle": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": 10,
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "actions": [
+                                        {
+                                            "type": "Action.OpenUrl",
+                                            "title": "Open",
+                                            "url": "https://outlook.office365.com/owa/?ItemID=AAMkAGNkM2Y1MzJlLThhNzctNDNkZS05ODBhLWY4NTg2NDdjNzczYwBGAAAAAAAJRbdiB9OZQoz5IT1HhDRtBwBjzCQXAsbSR5fDh9706hiVAAAAAAEMAABjzCQXAsbSR5fDh9706hiVAAJxTKf9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "separator": true
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": 90,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Microsoft Azure",
+                                    "wrap": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Azure AD Identity Protection Weekly Digest",
+                                    "wrap": true,
+                                    "spacing": "None",
+                                    "color": "Accent",
+                                    "size": "Medium",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "See your Azure AD Identity Protection Weekly Digest reportAzure AD Identity Protection Weekly DigestyrkmsnNew risky users detected0New risky sign-ins detected(in real-time)0Privacy StatementMicrosoft Corporation",
+                                    "wrap": true,
+                                    "spacing": "None",
+                                    "isSubtle": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": 10,
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "actions": [
+                                        {
+                                            "type": "Action.OpenUrl",
+                                            "title": "Open",
+                                            "url": "https://outlook.office365.com/owa/?ItemID=AAMkAGNkM2Y1MzJlLThhNzctNDNkZS05ODBhLWY4NTg2NDdjNzczYwBGAAAAAAAJRbdiB9OZQoz5IT1HhDRtBwBjzCQXAsbSR5fDh9706hiVAAAAAAEMAABjzCQXAsbSR5fDh9706hiVAAJxTKf9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "separator": true
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.4"
+}

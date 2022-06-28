@@ -1,0 +1,14 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "Sign out successful. Please refresh to Sign in again.",
+            "wrap": true
+        }
+    ],
+    "type": "AdaptiveCard",
+    "version": "1.4"
+}
