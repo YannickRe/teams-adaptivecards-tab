@@ -1,3 +1,4 @@
+import path from "path";
 import * as restify from "restify";
 import { AdaptiveCardsTabCommandHandler } from "./adaptiveCardsTabCommandHandler";
 import { commandBot } from "./internal/initialize";
@@ -8,6 +9,10 @@ const server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, () => {
   console.log(`\nBot Started, ${server.name} listening to ${server.url}`);
 });
+
+server.get('/images/*',
+     restify.plugins.serveStaticFiles(path.resolve(__dirname, './images'))
+);
 
 // Register an API endpoint with `restify`. Teams sends messages to your application
 // through this endpoint.
