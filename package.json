@@ -11,8 +11,5 @@
         "@microsoft/teamsfx-cli": "1.*",
         "@types/node": "^18.0.0"
     },
-    "license": "MIT",
-    "dependencies": {
-        "isomorphic-fetch": "^3.0.0"
-    }
+    "license": "MIT"
 }

@@ -42,7 +42,7 @@ resource botServiceOAuth2 'Microsoft.BotService/botServices/connections@2018-07-
   location: 'global'
   name: 'AADConnection'
   properties: {
-    scopes: 'openid profile'
+    scopes: 'openid profile offline_access email User.Read Tasks.ReadWrite Mail.Read'
     serviceProviderId: '30dd229c-58e3-4a48-bdfd-91ec48eb906c'
     clientId: m365ClientId
     clientSecret: m365ClientSecret
