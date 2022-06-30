@@ -8,7 +8,6 @@ import errorCard from "../adaptiveCards/errorCard.json";
 import { ProfileCardData } from "../adaptiveCardModels/profileCardData";
 import { MailsCardData } from "../adaptiveCardModels/mailsCardData";
 import { TasksCardData } from "../adaptiveCardModels/tasksCardData";
-import { GraphClient } from "./graphClient";
 import { Client } from '@microsoft/microsoft-graph-client';
 import { Message, User, TodoTask } from '@microsoft/microsoft-graph-types';
 import * as fs from 'fs';

@@ -1,15 +1,4 @@
-import {  BotFrameworkAdapter, CardFactory, TabRequest, TabResponse, TabResponseCard, TabSubmit, TaskModuleRequest, TaskModuleResponse, TeamsActivityHandler, TurnContext } from "botbuilder";
-import {
-  MessageBuilder,
-} from "@microsoft/teamsfx";
-import profileCard from "./adaptiveCards/profileCard.json";
-import mailsCard from "./adaptiveCards/mailsCard.json";
-import tasksCard from "./adaptiveCards/tasksCard.json";
-import signOutCard from "./adaptiveCards/signOutCard.json";
-import errorCard from "./adaptiveCards/errorCard.json";
-import { ProfileCardData } from "./adaptiveCardModels/profileCardData";
-import { MailsCardData } from "./adaptiveCardModels/mailsCardData";
-import { TasksCardData } from "./adaptiveCardModels/tasksCardData";
+import {  BotFrameworkAdapter, CardFactory, TabRequest, TabResponse, TabResponseCard, TabSubmit, TeamsActivityHandler, TurnContext } from "botbuilder";
 import { UiFactory } from "./internal/uiFactory";
 import { GraphClient } from "./internal/graphClient";
 
